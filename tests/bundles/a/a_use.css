@@ -1,0 +1,15 @@
+a1 {
+    background-image: url('../../_img/animals/animals-beaver.png'); /* borschik.sprite() */
+}
+
+a2 {
+    background-image: url('../../_img/animals/animals-elephant.png'); /* borschik.sprite() */
+}
+
+a3 {
+    background-image: url('../../_img/animals/animals-gaur_sm.png'); /* borschik.sprite() */
+}
+
+a4 {
+    background-image: url('../../_img/animals/animals-bird_m.png'); /* borschik.sprite() */
+}

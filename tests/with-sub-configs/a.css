@@ -1,0 +1,12 @@
+#elk {
+    background: url('../_img/animals/animals-elk.png'); /* borschik.sprite() */
+}
+#beaver {
+    background: black url('../_img/animals/animals-beaver.png') no-repeat 10px 0; /* borschik.sprite(animals) */
+}
+#elephant {
+    background-image: url('../_img/animals/animals-elephant.png'); /* borschik.sprite(not_animals) */
+    background-position: 10px 10px;
+}
+
+@import "b/b.css";

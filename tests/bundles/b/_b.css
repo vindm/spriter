@@ -1,0 +1,30 @@
+b1 {
+	background-image: url("../_sprited/common_b_use_a.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+b2 {
+	background-image: url("../_sprited/common_b_use_a.png");
+	background-repeat: no-repeat;
+	background-position: 0 -256px;
+}
+b3 {
+	background-image: url("../_sprited/common_b_use_a.png");
+	background-repeat: no-repeat;
+	background-position: -256px 0;
+}
+b4 {
+	background-image: url("../_sprited/common_a.png");
+	background-repeat: no-repeat;
+	background-position: -256px -256px;
+}
+
+
+/* ../a/sub/sub.css begin */
+sub {
+	background-image: url("../_sprited/common_a.png");
+	background-repeat: no-repeat;
+	background-position: 0 -256px;
+}
+
+/* ../a/sub/sub.css end */

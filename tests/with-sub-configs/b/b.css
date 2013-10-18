@@ -1,0 +1,9 @@
+#whale {
+    background: url('../../_img/animals/animals-whale.png'); /* borschik.sprite() */
+}
+#hornet {
+    background: url('../../_img/animals/animals-hornet_sm.png'); /* borschik.sprite(insects) */
+}
+#ladybug {
+    background: url('../../_img/animals/animals-bumble_bee_sm.png'); /* borschik.sprite(not_animals) */
+}

@@ -1,0 +1,13 @@
+#diagonal1 {
+    background: url(../_img/animals/animals-bumble_bee_sm.png); /*borschik.sprite(diag, 10)*/
+}
+
+#diagonal2 {
+    background-image: url(../_img/animals/animals-bird_m.png); /*borschik.sprite(diag, 10 20 30)*/
+    background-position: 0px 0px;
+}
+
+#diagonal3 {
+    background-image: url('../_img/animals/animals-ladybug_sm.png'); /*borschik.sprite(diag, 10 20 30 40)*/
+    background-position: 0 0;
+}

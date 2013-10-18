@@ -1,0 +1,13 @@
+{
+    "spriter" : {
+        "./" : {
+            "images" : "marked",
+            "sprites": {
+                  "not_animals": {
+                      "name": "insects"
+                  }
+              }
+        }
+    }
+}
+

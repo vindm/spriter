@@ -1,0 +1,20 @@
+a1 {
+	background-image: url("../_sprited/common_a.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+a2 {
+	background-image: url("../_sprited/common_a.png");
+	background-repeat: no-repeat;
+	background-position: -256px 0;
+}
+a3 {
+	background-image: url("../_sprited/common_a_use_a.png");
+	background-repeat: no-repeat;
+	background-position: 0 -128px;
+}
+a4 {
+	background-image: url("../_sprited/common_a_use_a.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}

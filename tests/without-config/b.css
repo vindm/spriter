@@ -1,0 +1,4 @@
+#whale {
+    background-image: url(../with-sub-configs/whale.png); /* borschik.sprite() */
+    background-position: 10px 10px;
+}

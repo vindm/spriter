@@ -1,0 +1,4 @@
+node_modules/*
+_sprited/
+.idea/
+.DS_Store

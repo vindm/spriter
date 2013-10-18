@@ -1,0 +1,3 @@
+.rule1 { background: url(a.png); /* borschik.sprite() */ }
+.rule2 { background: url(b.png); /* borschik.sprite(a_b_c) */ }
+.rule3 { background: url(c.png); /* borschik.sprite(not-a_b_c) */ }

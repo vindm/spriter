@@ -1,0 +1,18 @@
+b1 {
+    background-image: url('../../../tests/_img/animals/animals-whale.png'); /* borschik.sprite() */
+}
+
+b2 {
+    background-image: url('../../../tests/_img/animals/animals-bird_m.png'); /* borschik.sprite() */
+}
+
+b3 {
+    background-image: url('../../../tests/_img/animals/animals-goat.png'); /* borschik.sprite() */
+}
+
+b4 {
+    background-image: url('../../../tests/_img/animals/animals-bumble_bee_sm.png'); /* borschik.sprite() */
+}
+
+
+@import '../a/sub.css';

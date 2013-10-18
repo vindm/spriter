@@ -1,0 +1,35 @@
+#smart1 {
+    background: url(../_img/animals/animals-bumble_bee_sm.png); /* borschik.sprite() */
+}
+
+#smart2 {
+    background: url(../_img/animals/animals-ladybug_sm.png); /* borschik.sprite() */
+}
+
+#smart3 {
+    background-image: url('../_img/animals/animals-bird_m.png'); /*borschik.sprite()*/
+}
+
+#smart4 {
+    background-image: url(../_img/animals/animals-gaur_sm.png); /*borschik.sprite()*/
+}
+
+#smart5 {
+    background-image: url(../_img/animals/animals-bird_m.png); /*borschik.sprite()*/
+}
+
+#smart7 {
+    background-image: url(../_img/animals/animals-elk.png); /*borschik.sprite()*/
+}
+
+#smart8 {
+    background-image: url(../_img/animals/animals-elephant.png); /*borschik.sprite()*/
+}
+
+#smart9 {
+    background-image: url(../_img/animals/animals-beaver.png); /*borschik.sprite()*/
+}
+
+#smart10 {
+    background-image: url(../_img/animals/animals-goat.png); /*borschik.sprite()*/
+}

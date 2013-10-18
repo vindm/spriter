@@ -1,0 +1,55 @@
+#b64 {
+    background: url(../_img/blocks/64.gif); /* borschik.sprite(default, 0) */
+}
+
+#b64_fiol {
+    background: url(../_img/blocks/64_fiol.gif); /* borschik.sprite(default, 0) */
+}
+
+#b64_purple {
+    background: url(../_img/blocks/64_purple.gif); /* borschik.sprite(default, 0) */
+}
+
+#b64_orange {
+    background-image: url('../_img/blocks/64_orange.gif'); /*borschik.sprite(default, 0)*/
+}
+
+#b64_red {
+    background-image: url(../_img/blocks/64_red.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b360x65 {
+    background-image: url(../_img/blocks/360x65.gif); /* borschik.sprite(default, 0) */
+}
+
+#b64x256 {
+    background-image: url(../_img/blocks/64x256.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b140x100 {
+    background-image: url(../_img/blocks/140x100.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b200x100 {
+    background-image: url(../_img/blocks/200x100.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b200x100_333 {
+    background-image: url(../_img/blocks/200x100_333.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b200x100_666 {
+    background-image: url(../_img/blocks/200x100_666.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b200x100_999 {
+    background-image: url(../_img/blocks/200x100_999.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b350x150 {
+    background-image: url(../_img/blocks/350x150.gif); /*borschik.sprite(default, 0)*/
+}
+
+#b200x200_000000 {
+    background-image: url(../_img/blocks/200x200_000000.gif); /*borschik.sprite(default, 0)*/
+}

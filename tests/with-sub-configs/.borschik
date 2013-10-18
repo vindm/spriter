@@ -1,0 +1,20 @@
+{
+    "paths" : {
+        "./": "/"
+    },
+    "spriter" : {
+        "./" : {
+            "images" : "marked",
+           "sprites": {
+                   "default": {
+                       "path": "sprited",
+                       "name": "animals",
+                       "layout":"smart"
+                   },
+                   "not_animals": {
+                       "name": "animals"
+                   }
+               }
+        }
+    }
+}

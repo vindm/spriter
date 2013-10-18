@@ -1,0 +1,16 @@
+{
+    "spriter" : {
+        "./": {
+             "sprites" : {
+                    "default": {
+                        "name": "sub",
+                        "layout": "smart"
+                    },
+                    "test": {
+                         "name": "sub_test"
+                    }
+                }
+        }
+    }
+
+}

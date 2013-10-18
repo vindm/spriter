@@ -1,0 +1,102 @@
+/* horizontal.css begin */
+#horizontal1 {
+	background-image: url("../sprited/layout/horizontal.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#horizontal2 {
+	background-image: url("../sprited/layout/horizontal.png");
+	background-repeat: no-repeat;
+	background-position: -128px 0;
+}
+#horizontal3 {
+	background-image: url("../sprited/layout/horizontal.png");
+	background-repeat: no-repeat;
+	background-position: -64px 0;
+}
+
+/* horizontal.css end */
+/* vertical.css begin */
+#vertical1 {
+	background-image: url("../sprited/layout/vertical.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#vertical2 {
+	background-image: url("../sprited/layout/vertical.png");
+	background-repeat: no-repeat;
+	background-position: 0 -128px;
+}
+#vertical3 {
+	background-image: url("../sprited/layout/vertical.png");
+	background-repeat: no-repeat;
+	background-position: 0 -64px;
+}
+
+/* vertical.css end */
+/* diagonal.css begin */
+#diagonal1 {
+	background-image: url("../sprited/layout/diagonal.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#diagonal2 {
+	background-image: url("../sprited/layout/diagonal.png");
+	background-repeat: no-repeat;
+	background-position: -128px -128px;
+}
+#diagonal3 {
+	background-image: url("../sprited/layout/diagonal.png");
+	background-repeat: no-repeat;
+	background-position: -64px -64px;
+}
+
+/* diagonal.css end */
+/* smart.css begin */
+#smart1 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: -320px -256px;
+}
+#smart2 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: -320px -320px;
+}
+#smart3 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: 0 -256px;
+}
+#smart4 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: -256px 0;
+}
+#smart5 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: 0 256px;
+}
+#smart7 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+#smart8 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: -320px 0;
+}
+#smart9 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: 0 -384px;
+}
+#smart10 {
+	background-image: url("../sprited/layout/smart.png");
+	background-repeat: no-repeat;
+	background-position: -256px -384px;
+}
+
+/* smart.css end */
