@@ -21,6 +21,7 @@
         "imagemagick": "http://github.com/naltatis/node-imagemagick/tarball/master"
     },
     "devDependencies": {
+        "borschik": "0.4.0",
         "istanbul": "~0.1.22",
         "mocha-as-promised": "*",
         "mocha-istanbul": "*",
