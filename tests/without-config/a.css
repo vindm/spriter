@@ -1,7 +1,0 @@
-#elk {
-    background: url(../with-sub-configs/elk.png); /* borschik.sprite() */
-}
-#beaver {
-    background: black url(../with-sub-configs/beaver.png) no-repeat 10px 0; /* borschik.sprite() */
-}
-@import 'b.css';
