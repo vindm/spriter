@@ -1,0 +1,215 @@
+{
+	"images": [
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/16_000000.png",
+			"id": "0820268034",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/use/extended_extra_horizontal-out.png",
+			"positionX": 54,
+			"positionY": 0,
+			"height": 16,
+			"width": 16,
+			"sum": "48534348c52af33b3c811031eb22887b21660e09"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/20x100_FFFF00.png",
+			"id": "4555542934",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/use/extended_extra_horizontal-out.png",
+			"positionX": 0,
+			"positionY": 0,
+			"height": 100,
+			"width": 20,
+			"sum": "66f9fda9a01e4c3bc74ec2f7dce87295e8cf2c65"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/32_F0A804.png",
+			"id": "4863041047",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/use/extended_extra_horizontal-out.png",
+			"positionX": 21,
+			"positionY": 0,
+			"height": 32,
+			"width": 32,
+			"sum": "7ea1786a5d2337cf5d51c89a652ac3e9c9b7514e"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/8_800080.png",
+			"id": "4355957265",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/use/extended_extra_horizontal-out.png",
+			"positionX": 80,
+			"positionY": 0,
+			"height": 8,
+			"width": 8,
+			"sum": "5f1e0e5b52da119bc17d5be3dc49e1c4f98934d1"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/8_FF0000.png",
+			"id": "4245607096",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/use/extended_extra_horizontal-out.png",
+			"positionX": 71,
+			"positionY": 0,
+			"height": 8,
+			"width": 8,
+			"sum": "d5979ca238a9ea8c07a0d8005a5aa60359d81366"
+		}
+	],
+	"sprite": {
+		"name": "extended_extra_horizontal-out",
+		"path": "/home/vindm/www/borschik/spriter/test/use",
+		"ext": "png",
+		"mapper": {
+			"layout": "horizontal",
+			"padding": [
+				0,
+				0,
+				0,
+				0
+			],
+			"canvas": {
+				"type": "row",
+				"deep": 1,
+				"children": [
+					{
+						"ids": [
+							"4555542934"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/20x100_FFFF00.png",
+						"path": "/home/vindm/www/borschik/spriter/test/use/images/extra/20x100_FFFF00.png",
+						"positionX": 0,
+						"positionY": 0,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 20,
+						"height": 100,
+						"totalWidth": 22,
+						"totalHeight": 102,
+						"sum": "66f9fda9a01e4c3bc74ec2f7dce87295e8cf2c65",
+						"num": 6699
+					},
+					{
+						"ids": [
+							"4863041047"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/32_F0A804.png",
+						"path": "/home/vindm/www/borschik/spriter/test/use/images/extra/32_F0A804.png",
+						"positionX": 21,
+						"positionY": 0,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 32,
+						"height": 32,
+						"totalWidth": 34,
+						"totalHeight": 34,
+						"sum": "7ea1786a5d2337cf5d51c89a652ac3e9c9b7514e",
+						"num": 7178
+					},
+					{
+						"ids": [
+							"0820268034"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/16_000000.png",
+						"path": "/home/vindm/www/borschik/spriter/test/use/images/extra/16_000000.png",
+						"positionX": 54,
+						"positionY": 0,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 16,
+						"height": 16,
+						"totalWidth": 18,
+						"totalHeight": 18,
+						"sum": "48534348c52af33b3c811031eb22887b21660e09",
+						"num": 4853
+					},
+					{
+						"ids": [
+							"4245607096"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/8_FF0000.png",
+						"path": "/home/vindm/www/borschik/spriter/test/use/images/extra/8_FF0000.png",
+						"positionX": 71,
+						"positionY": 0,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 8,
+						"height": 8,
+						"totalWidth": 10,
+						"totalHeight": 10,
+						"sum": "d5979ca238a9ea8c07a0d8005a5aa60359d81366",
+						"num": 5979
+					},
+					{
+						"ids": [
+							"4355957265"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/use/images/extra/8_800080.png",
+						"path": "/home/vindm/www/borschik/spriter/test/use/images/extra/8_800080.png",
+						"positionX": 80,
+						"positionY": 0,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 8,
+						"height": 8,
+						"totalWidth": 10,
+						"totalHeight": 10,
+						"sum": "5f1e0e5b52da119bc17d5be3dc49e1c4f98934d1",
+						"num": 5105
+					}
+				]
+			},
+			"width": 90,
+			"height": 102
+		}
+	},
+	"meta": {
+		"version": "0.1.0",
+		"created": 1401384432360
+	}
+}
