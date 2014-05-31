@@ -1,4 +1,6 @@
-node_modules/*
-_sprited/
+node_modules/
+examples/sprited
+*-last.json
+.spriter.json
 .idea/
 .DS_Store
