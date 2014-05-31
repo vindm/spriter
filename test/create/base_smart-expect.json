@@ -1,0 +1,431 @@
+{
+	"images": [
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FF0000.png",
+			"id": "98194929",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/base_smart-out.png",
+			"positionX": 0,
+			"positionY": 0,
+			"height": 80,
+			"width": 40,
+			"sum": "59df1d1635530bf57a3cac7fb6374084ef019628"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FFFF00.png",
+			"id": "67739424",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/base_smart-out.png",
+			"positionX": 41,
+			"positionY": 0,
+			"height": 80,
+			"width": 40,
+			"sum": "06418490fc8ab4429fa15787ba82bac444bd01eb"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FFFFFF.png",
+			"id": "83434586",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/base_smart-out.png",
+			"positionX": 82,
+			"positionY": 0,
+			"height": 80,
+			"width": 40,
+			"sum": "019a678abacaad9575f9c3fcc7e42b52d406cab9"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/60x30_000000.png",
+			"id": "41183869",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/base_smart-out.png",
+			"positionX": 61,
+			"positionY": 81,
+			"height": 30,
+			"width": 60,
+			"sum": "18e39da0d78499f7a7d686ccc439e8f1367e0893"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/60x30_0000FF.png",
+			"id": "02019194",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/base_smart-out.png",
+			"positionX": 0,
+			"positionY": 81,
+			"height": 30,
+			"width": 60,
+			"sum": "34d78c07ac0d3dd45496f658230499d3933bce22"
+		}
+	],
+	"sprite": {
+		"name": "base_smart-out",
+		"path": "/home/vindm/www/borschik/spriter/test/create",
+		"ext": ".png",
+		"mapper": {
+			"layout": "smart",
+			"canvas": {
+				"type": "column",
+				"deep": 9,
+				"children": [
+					{
+						"type": "row",
+						"deep": 8,
+						"children": [
+							{
+								"type": "column",
+								"deep": 7,
+								"children": [
+									{
+										"type": "row",
+										"deep": 6,
+										"children": [
+											{
+												"type": "column",
+												"deep": 5,
+												"children": [
+													{
+														"type": "row",
+														"deep": 4,
+														"children": [
+															{
+																"type": "column",
+																"deep": 3,
+																"children": [
+																	{
+																		"type": "row",
+																		"deep": 2,
+																		"children": [
+																			{
+																				"type": "column",
+																				"deep": 1,
+																				"children": [
+																					{
+																						"ids": [
+																							"98194929"
+																						],
+																						"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FF0000.png",
+																						"path": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FF0000.png",
+																						"positionX": 0,
+																						"positionY": 0,
+																						"padding": [
+																							1,
+																							1,
+																							1,
+																							1
+																						],
+																						"width": 40,
+																						"height": 80,
+																						"totalWidth": 42,
+																						"totalHeight": 82,
+																						"sum": "59df1d1635530bf57a3cac7fb6374084ef019628",
+																						"num": 5911
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "column",
+								"deep": 7,
+								"children": [
+									{
+										"type": "row",
+										"deep": 6,
+										"children": [
+											{
+												"type": "column",
+												"deep": 5,
+												"children": [
+													{
+														"type": "row",
+														"deep": 4,
+														"children": [
+															{
+																"type": "column",
+																"deep": 3,
+																"children": [
+																	{
+																		"type": "row",
+																		"deep": 2,
+																		"children": [
+																			{
+																				"type": "column",
+																				"deep": 1,
+																				"children": [
+																					{
+																						"ids": [
+																							"67739424"
+																						],
+																						"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FFFF00.png",
+																						"path": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FFFF00.png",
+																						"positionX": 41,
+																						"positionY": 0,
+																						"padding": [
+																							1,
+																							1,
+																							1,
+																							1
+																						],
+																						"width": 40,
+																						"height": 80,
+																						"totalWidth": 42,
+																						"totalHeight": 82,
+																						"sum": "06418490fc8ab4429fa15787ba82bac444bd01eb",
+																						"num": 641
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "column",
+								"deep": 7,
+								"children": [
+									{
+										"type": "row",
+										"deep": 6,
+										"children": [
+											{
+												"type": "column",
+												"deep": 5,
+												"children": [
+													{
+														"type": "row",
+														"deep": 4,
+														"children": [
+															{
+																"type": "column",
+																"deep": 3,
+																"children": [
+																	{
+																		"type": "row",
+																		"deep": 2,
+																		"children": [
+																			{
+																				"type": "column",
+																				"deep": 1,
+																				"children": [
+																					{
+																						"ids": [
+																							"83434586"
+																						],
+																						"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FFFFFF.png",
+																						"path": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/40x80_FFFFFF.png",
+																						"positionX": 82,
+																						"positionY": 0,
+																						"padding": [
+																							1,
+																							1,
+																							1,
+																							1
+																						],
+																						"width": 40,
+																						"height": 80,
+																						"totalWidth": 42,
+																						"totalHeight": 82,
+																						"sum": "019a678abacaad9575f9c3fcc7e42b52d406cab9",
+																						"num": 196
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "row",
+						"deep": 8,
+						"children": [
+							{
+								"type": "column",
+								"deep": 7,
+								"children": [
+									{
+										"type": "row",
+										"deep": 6,
+										"children": [
+											{
+												"type": "column",
+												"deep": 5,
+												"children": [
+													{
+														"type": "row",
+														"deep": 4,
+														"children": [
+															{
+																"type": "column",
+																"deep": 3,
+																"children": [
+																	{
+																		"type": "row",
+																		"deep": 2,
+																		"children": [
+																			{
+																				"type": "column",
+																				"deep": 1,
+																				"children": [
+																					{
+																						"ids": [
+																							"02019194"
+																						],
+																						"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/60x30_0000FF.png",
+																						"path": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/60x30_0000FF.png",
+																						"positionX": 0,
+																						"positionY": 81,
+																						"padding": [
+																							1,
+																							1,
+																							1,
+																							1
+																						],
+																						"width": 60,
+																						"height": 30,
+																						"totalWidth": 62,
+																						"totalHeight": 32,
+																						"sum": "34d78c07ac0d3dd45496f658230499d3933bce22",
+																						"num": 3478
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "column",
+								"deep": 7,
+								"children": [
+									{
+										"type": "row",
+										"deep": 6,
+										"children": [
+											{
+												"type": "column",
+												"deep": 5,
+												"children": [
+													{
+														"type": "row",
+														"deep": 4,
+														"children": [
+															{
+																"type": "column",
+																"deep": 3,
+																"children": [
+																	{
+																		"type": "row",
+																		"deep": 2,
+																		"children": [
+																			{
+																				"type": "column",
+																				"deep": 1,
+																				"children": [
+																					{
+																						"ids": [
+																							"41183869"
+																						],
+																						"url": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/60x30_000000.png",
+																						"path": "/home/vindm/www/borschik/spriter/test/create/images/base_smart/60x30_000000.png",
+																						"positionX": 61,
+																						"positionY": 81,
+																						"padding": [
+																							1,
+																							1,
+																							1,
+																							1
+																						],
+																						"width": 60,
+																						"height": 30,
+																						"totalWidth": 62,
+																						"totalHeight": 32,
+																						"sum": "18e39da0d78499f7a7d686ccc439e8f1367e0893",
+																						"num": 1839
+																					}
+																				]
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			"width": 124,
+			"height": 113
+		}
+	},
+	"meta": {
+		"version": "0.1.0",
+		"created": 1399226103751
+	}
+}

@@ -1,0 +1,172 @@
+{
+	"images": [
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_333.gif",
+			"id": "30987453",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/override_vertical-out.png",
+			"positionX": 0,
+			"positionY": 201,
+			"height": 100,
+			"width": 200,
+			"sum": "8971c01dec82e085b17a1db67573c104bb412e44"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_666.gif",
+			"id": "54252952",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/override_vertical-out.png",
+			"positionX": 0,
+			"positionY": 302,
+			"height": 100,
+			"width": 200,
+			"sum": "67386828649d8316f1d10b0df179737cc460baa3"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_999.gif",
+			"id": "09878595",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/override_vertical-out.png",
+			"positionX": 0,
+			"positionY": 403,
+			"height": 100,
+			"width": 200,
+			"sum": "3207d3b5e0959f6764a60ef71fbc5ea26d9403dc"
+		},
+		{
+			"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x200_000000.gif",
+			"id": "69929961",
+			"padding": [
+				1,
+				1,
+				1,
+				1
+			],
+			"spriteUrl": "/home/vindm/www/borschik/spriter/test/create/override_vertical-out.png",
+			"positionX": 0,
+			"positionY": 0,
+			"height": 200,
+			"width": 200,
+			"sum": "0ac9cc4c61481ff9d9f9722939d1b9dbba872202"
+		}
+	],
+	"sprite": {
+		"name": "override_vertical-out",
+		"path": "/home/vindm/www/borschik/spriter/test/create",
+		"ext": ".png",
+		"mapper": {
+			"layout": "vertical",
+			"canvas": {
+				"type": "column",
+				"deep": 1,
+				"children": [
+					{
+						"ids": [
+							"69929961"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x200_000000.gif",
+						"path": "/home/vindm/www/borschik/spriter/test/create/images/override/200x200_000000.gif",
+						"positionX": 0,
+						"positionY": 0,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 200,
+						"height": 200,
+						"totalWidth": 202,
+						"totalHeight": 202,
+						"sum": "0ac9cc4c61481ff9d9f9722939d1b9dbba872202",
+						"num": 946
+					},
+					{
+						"ids": [
+							"30987453"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_333.gif",
+						"path": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_333.gif",
+						"positionX": 0,
+						"positionY": 201,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 200,
+						"height": 100,
+						"totalWidth": 202,
+						"totalHeight": 102,
+						"sum": "8971c01dec82e085b17a1db67573c104bb412e44",
+						"num": 8971
+					},
+					{
+						"ids": [
+							"54252952"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_666.gif",
+						"path": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_666.gif",
+						"positionX": 0,
+						"positionY": 302,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 200,
+						"height": 100,
+						"totalWidth": 202,
+						"totalHeight": 102,
+						"sum": "67386828649d8316f1d10b0df179737cc460baa3",
+						"num": 6738
+					},
+					{
+						"ids": [
+							"09878595"
+						],
+						"url": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_999.gif",
+						"path": "/home/vindm/www/borschik/spriter/test/create/images/override/200x100_999.gif",
+						"positionX": 0,
+						"positionY": 403,
+						"padding": [
+							1,
+							1,
+							1,
+							1
+						],
+						"width": 200,
+						"height": 100,
+						"totalWidth": 202,
+						"totalHeight": 102,
+						"sum": "3207d3b5e0959f6764a60ef71fbc5ea26d9403dc",
+						"num": 3207
+					}
+				]
+			},
+			"width": 202,
+			"height": 505
+		}
+	},
+	"meta": {
+		"version": "0.1.0",
+		"created": 1399226103354
+	}
+}
