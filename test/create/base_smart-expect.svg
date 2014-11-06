@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="116" viewBox="0 0 128 116">
+  <g width="40" height="80" transform="translate(2,2)">
+    <rect width="40" height="80" fill="#ffff00"/>
+  </g>
+  <g width="40" height="80" transform="translate(44,2)">
+    <rect width="40" height="80" fill="#ffffff"/>
+  </g>
+  <g width="40" height="80" transform="translate(86,2)">
+    <rect width="40" height="80" fill="#ff0000"/>
+  </g>
+  <g width="60" height="30" transform="translate(2,84)">
+    <path fill="#00f" d="M0 0h60v30H0z"/>
+  </g>
+  <g width="60" height="30" transform="translate(64,84)">
+    <rect width="60" height="30" fill="#000000"/>
+  </g>
+</svg>
