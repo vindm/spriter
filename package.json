@@ -1,6 +1,6 @@
 {
     "name" : "bonder",
-    "version" : "0.2.3",
+    "version" : "0.2.4",
     "description" : "Creates CSS and SVG sprites.",
     "license" : "MIT",
     "repository" : {
@@ -20,7 +20,7 @@
         "url" : "http://github.com/vindm"
     },
     "dependencies" : {
-        "fitter" : "0.2.1",
+        "fitter" : "0.2.2",
         "imagemagick" : "^0.1.3",
         "globule" : "^0.2.0",
         "extend" : "^2.0.0",

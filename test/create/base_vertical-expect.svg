@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="312" viewBox="0 0 64 312">
+	<g width="60" height="30" transform="translate(2, 2)">
+		<rect width="60" height="30" fill="#000000"></rect>
+	</g>
+	<g width="60" height="30" transform="translate(2, 34)">
+		<rect width="60" height="30" fill="#0000ff"></rect>
+	</g>
+	<g width="40" height="80" transform="translate(2, 66)">
+		<rect width="40" height="80" fill="#ffff00"></rect>
+	</g>
+	<g width="40" height="80" transform="translate(2, 148)">
+		<rect width="40" height="80" fill="#ffffff"></rect>
+	</g>
+	<g width="40" height="80" transform="translate(2, 230)">
+		<rect width="40" height="80" fill="#ff0000"></rect>
+	</g>
+</svg>

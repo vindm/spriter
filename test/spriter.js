@@ -14,7 +14,7 @@ describe('Spriter', function() {
     };
 
     Test.preparePaths = function(config, ext) {
-//        ext = config.ext || ext;
+        ext = config.ext || ext || '.png';
 
         var out = config.out,
             expect = config.expect || out;
@@ -121,7 +121,7 @@ describe('Spriter', function() {
                 src : config.src || (PATH.resolve(_this.imagesPath, dir) + '/**/*'),
                 path : _this.basePath,
                 name : out,
-                ext : _this.ext,
+                ext : config.ext || _this.ext,
                 ifexists : config.action || _this.action,
                 layout : config.layout,
                 padding : 2
@@ -181,7 +181,7 @@ describe('Spriter', function() {
 
         try {
             images.forEach(function(image) {
-                var img = Test.preparePaths(image, '.' + image.ext);
+                var img = Test.preparePaths(image, '.' + (image.ext || 'png'));
 
                 ASSERT.equal(
                     FS.readFileSync(PATH.resolve(this.basePath, img.out), 'base64'),
@@ -233,42 +233,42 @@ describe('Spriter', function() {
                     });
                 });
 
-//                it('should not override identical existing ' + layout + ' sprite,' +
-//                    ' even if input images are renamed and replaced', function(cb) {
-//                    var images = GLOBULE.find([ PATH.resolve(test.imagesPath, 'base_' + layout) + '/**/*' ]);
-//
-//                    var dir = 'not_override_' + layout,
-//                        path = PATH.resolve(test.imagesPath, dir),
-//                        cmd = []
-//                            .concat(
-//                                images
-//                                    .map(function(image) {
-//                                        var ext = PATH.extname(image.url),
-//                                            name = PATH.basename(image.url, ext),
-//                                            newUrl;
-//
-//                                        name = String(Math.random()).substr(2, 7) + '_' + name;
-//                                        newUrl = PATH.resolve(path, name + ext);
-//
-//                                        Test.makePath(newUrl);
-//
-//                                        return 'cp ' + image.url + ' ' + newUrl;
-//                                    })
-//                            )
-//                            .join(' && ');
-//
-//                    require('child_process').exec(cmd, function() {
-//                        test.act({ dir : 'base_' + layout, out : 'not_override_' + layout, layout : layout }, function() {
-//                            test.act({ dir : 'base_' + layout, layout : layout }, function() {
-//                                test.compare({ out : 'not_override_' + layout, expect : 'base_' + layout }, cb);
-//                            });
-//                        });
-//                    });
-//
-//                    after(function(cb) {
-//                        require('child_process').exec('rm -rf ' + path, cb);
-//                    });
-//                });
+                it('should not override identical existing ' + layout + ' sprite,' +
+                    ' even if input images are renamed and replaced', function(cb) {
+                    var images = GLOBULE.find([ PATH.resolve(test.imagesPath, 'base_' + layout) + '/**/*' ]);
+
+                    var dir = 'not_override_' + layout,
+                        path = PATH.resolve(test.imagesPath, dir),
+                        cmd = []
+                            .concat(
+                                images
+                                    .map(function(image) {
+                                        var ext = PATH.extname(image.url),
+                                            name = PATH.basename(image.url, ext),
+                                            newUrl;
+
+                                        name = String(Math.random()).substr(2, 7) + '_' + name;
+                                        newUrl = PATH.resolve(path, name + ext);
+
+                                        Test.makePath(newUrl);
+
+                                        return 'cp ' + image.url + ' ' + newUrl;
+                                    })
+                            )
+                            .join(' && ');
+
+                    require('child_process').exec(cmd, function() {
+                        test.act({ dir : 'base_' + layout, out : 'not_override_' + layout, layout : layout }, function() {
+                            test.act({ dir : 'base_' + layout, layout : layout }, function() {
+                                test.compare({ out : 'not_override_' + layout, expect : 'base_' + layout }, cb);
+                            });
+                        });
+                    });
+
+                    after(function(cb) {
+                        require('child_process').exec('rm -rf ' + path, cb);
+                    });
+                });
 
             });
     });
@@ -277,16 +277,16 @@ describe('Spriter', function() {
         var test = new Test('create', 'svg').setup(this);
 
         [
-//            'horizontal', 'vertical',
+            'horizontal', 'vertical',
             'smart'
         ]
             .forEach(function(layout) {
 
                 it('should create new ' + layout + ' svg sprite', function(cb) {
-                    test.act({ dir : 'base_' + layout, layout : layout, ext : 'svg' }, function() {
+                    test.act({ dir : 'base_' + layout, layout : layout, ext : '.svg' }, function() {
                         test.compare({
                             out : 'base_' + layout,
-                            ext : 'svg'
+                            ext : '.svg'
                         }, cb);
                     });
                 });
@@ -371,48 +371,48 @@ describe('Spriter', function() {
 
                     act(cb);
                 });
-//
-//                it('should not override identical existing ' + layout + ' sprite,' +
-//                    ' even if input images are renamed and replaced', function(cb) {
-//                    var images = GLOBULE.find([ PATH.resolve(test.imagesPath, 'base') + '/**/*' ]);
-//
-//                    var dir = 'not_override_' + layout,
-//                        path = PATH.resolve(test.imagesPath, dir),
-//                        cmd = []
-//                            .concat(
-//                                images
-//                                    .map(function(image) {
-//                                        var ext = PATH.extname(image.url),
-//                                            name = PATH.basename(image.url, ext),
-//                                            newUrl;
-//
-//                                        name = String(Math.random()).substr(2, 7) + '_' + name;
-//                                        newUrl = PATH.resolve(path, name + ext);
-//
-//                                        Test.makePath(newUrl);
-//
-//                                        return 'cp ' + image.url + ' ' + newUrl;
-//                                    })
-//                            )
-//                            .join(' && ');
-//
-//                    require('child_process').exec(cmd, function() {
-//                        test.act({ dir : 'base', out : 'not_override_' + layout, layout : layout }, function() {
-//                            test.act({ dir : 'not_override_' + layout, layout : layout }, function() {
-//                                cb();
-//                            });
-//                        });
-//                    });
-//
-//                    after(function(cb) {
-//                        require('child_process').exec('rm -rf ' + path, cb);
-//                    });
-//                });
+
+                it('should not override identical existing ' + layout + ' sprite,' +
+                    ' even if input images are renamed and replaced', function(cb) {
+                    var images = GLOBULE.find([ PATH.resolve(test.imagesPath, 'base') + '/**/*' ]);
+
+                    var dir = 'not_override_' + layout,
+                        path = PATH.resolve(test.imagesPath, dir),
+                        cmd = []
+                            .concat(
+                                images
+                                    .map(function(image) {
+                                        var ext = PATH.extname(image.url),
+                                            name = PATH.basename(image.url, ext),
+                                            newUrl;
+
+                                        name = String(Math.random()).substr(2, 7) + '_' + name;
+                                        newUrl = PATH.resolve(path, name + ext);
+
+                                        Test.makePath(newUrl);
+
+                                        return 'cp ' + image.url + ' ' + newUrl;
+                                    })
+                            )
+                            .join(' && ');
+
+                    require('child_process').exec(cmd, function() {
+                        test.act({ dir : 'base', out : 'not_override_' + layout, layout : layout }, function() {
+                            test.act({ dir : 'not_override_' + layout, layout : layout }, function() {
+                                cb();
+                            });
+                        });
+                    });
+
+                    after(function(cb) {
+                        require('child_process').exec('rm -rf ' + path, cb);
+                    });
+                });
 
             });
 
     });
-//
+
     describe('.use()', function() {
         var test = new Test('use').setup(this);
 
@@ -427,42 +427,42 @@ describe('Spriter', function() {
                     });
                 });
 
-//                it('should not override identical existing ' + layout + ' sprite,' +
-//                    ' even if input images are renamed and replaced', function(cb) {
-//                    var images = GLOBULE.find([ PATH.resolve(test.imagesPath, 'base') + '/**/*' ]);
-//
-//                    var dir = 'not_override_' + layout,
-//                        path = PATH.resolve(test.imagesPath, dir),
-//                        cmd = []
-//                            .concat(
-//	                            images
-//	                                .map(function(image) {
-//	                                    var ext = PATH.extname(image.url),
-//	                                        name = PATH.basename(image.url, ext),
-//	                                        newUrl;
-//
-//	                                    name = String(Math.random()).substr(2, 7) + '_' + name;
-//	                                    newUrl = PATH.resolve(path, name + ext);
-//
-//                                        Test.makePath(newUrl);
-//
-//	                                    return 'cp ' + image.url + ' ' + newUrl;
-//	                                })
-//	                        )
-//                            .join(' && ');
-//
-//                    require('child_process').exec(cmd, function() {
-//                        test.act({ dir : 'base', out : 'not_override_' + layout, layout : layout }, function() {
-//                            test.act({ dir : 'not_override_' + layout, layout : layout }, function() {
-//                                test.compare({ out : 'not_override_' + layout, expect : 'base_' + layout }, cb);
-//                            });
-//                        });
-//                    });
-//
-//                    after(function(cb) {
-//                        require('child_process').exec('rm -rf ' + path, cb);
-//                    });
-//                });
+                it('should not override identical existing ' + layout + ' sprite,' +
+                    ' even if input images are renamed and replaced', function(cb) {
+                    var images = GLOBULE.find([ PATH.resolve(test.imagesPath, 'base') + '/**/*' ]);
+
+                    var dir = 'not_override_' + layout,
+                        path = PATH.resolve(test.imagesPath, dir),
+                        cmd = []
+                            .concat(
+	                            images
+	                                .map(function(image) {
+	                                    var ext = PATH.extname(image.url),
+	                                        name = PATH.basename(image.url, ext),
+	                                        newUrl;
+
+	                                    name = String(Math.random()).substr(2, 7) + '_' + name;
+	                                    newUrl = PATH.resolve(path, name + ext);
+
+                                        Test.makePath(newUrl);
+
+	                                    return 'cp ' + image.url + ' ' + newUrl;
+	                                })
+	                        )
+                            .join(' && ');
+
+                    require('child_process').exec(cmd, function() {
+                        test.act({ dir : 'base', out : 'not_override_' + layout, layout : layout }, function() {
+                            test.act({ dir : 'not_override_' + layout, layout : layout }, function() {
+                                test.compare({ out : 'not_override_' + layout, expect : 'base_' + layout }, cb);
+                            });
+                        });
+                    });
+
+                    after(function(cb) {
+                        require('child_process').exec('rm -rf ' + path, cb);
+                    });
+                });
 
                 it('should create new ' + layout + ' sprite from images not containing in existent sprite',
 	                function(cb) {

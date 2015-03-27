@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="116" viewBox="0 0 128 116">
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="84" viewBox="0 0 252 84">
 	<g width="40" height="80" transform="translate(2, 2)">
 		<rect width="40" height="80" fill="#ffff00"></rect>
 	</g>
@@ -8,10 +8,10 @@
 	<g width="40" height="80" transform="translate(86, 2)">
 		<rect width="40" height="80" fill="#ff0000"></rect>
 	</g>
-	<g width="60" height="30" transform="translate(2, 84)">
+	<g width="60" height="30" transform="translate(128, 2)">
 		<rect width="60" height="30" fill="#000000"></rect>
 	</g>
-	<g width="60" height="30" transform="translate(64, 84)">
+	<g width="60" height="30" transform="translate(190, 2)">
 		<rect width="60" height="30" fill="#0000ff"></rect>
 	</g>
 </svg>
