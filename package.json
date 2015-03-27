@@ -1,6 +1,6 @@
 {
-    "name" : "spriter",
-    "version" : "0.2.0",
+    "name" : "bonder",
+    "version" : "0.2.2",
     "description" : "Creates sprite images.",
     "license" : "MIT",
     "repository" : {
@@ -20,7 +20,7 @@
         "url" : "http://github.com/vindm"
     },
     "dependencies" : {
-        "mapper" : "git://github.com/vindm/mapper#0.2.0",
+        "fitter" : "0.2.1",
         "imagemagick" : "^0.1.3",
         "globule" : "^0.2.0",
         "extend" : "^2.0.0",

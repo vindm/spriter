@@ -308,7 +308,7 @@ describe('Spriter', function() {
                 });
 
                 it('should restore existing ' + layout + ' sprite and extend it with extra images', function(cb) {
-                    test.act({ dir : 'base', out : 'extra_' + layout, layout : layout  }, function(err) {
+                    test.act({ dir : 'base', out : 'extra_' + layout, layout : layout }, function(err) {
                         err ? cb(err) : test.act({ dir : 'extra',  out : 'extra_' + layout, layout : layout }, function(err) {
                             err ? cb(err) : test.compare({ out : 'extra_' + layout }, cb);
                         });
